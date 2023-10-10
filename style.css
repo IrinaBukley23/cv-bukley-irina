@@ -99,6 +99,9 @@
     display: flex;
     justify-content: space-between;
 }
+.courses {
+    margin: 0 2rem 0 0;
+}
 .courses__list-item, .hobby__list-item, .quote__list-item {
     margin: 0.5rem 0;
     font-size: 1.25rem;
@@ -171,6 +174,7 @@
 @media (max-width: 1440px) {
     .wrapper {
         max-width: 90%;
+        flex-direction: column;
     }
 }
 @media (max-width: 996px) {
@@ -201,8 +205,14 @@
     .header__descr {
         width: 65%;
     }
+    .edu {
+        flex-direction: column;
+    }
 }
 @media (max-width: 470px) {
+    .wrapper {
+        padding-top: 2rem;
+    }
     .header__title {
         letter-spacing: 2px;
     }
