@@ -4,133 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="image/x-icon" href="./favicon.ico" rel="shortcut icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Autour+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>CV</title>
 </head>
 <body>
     <header class="header">
-        <h1 class="header__title">Ирина Буклей</h1>
-        <div class="header__descr">
-            <p>Открыта для предложений и новых проектов</p>
-        </div>
-        <div class="header__avatar">
-            <img src="./img/avatar.png" alt="avatar">
+        <div class="container">
+            <h1 class="header__title">Ирина Буклей</h1>
+            <div class="header__descr">
+                <p>Открыта для предложений и новых проектов</p>
+            </div>
+            <div class="header__avatar">
+                <img src="./img/avatar.png" alt="avatar">
+            </div>
         </div>
     </header>
-    <main>
-        <h2 class="main__title">Ирина Буклей | Junior Frontend developer</h2>
-        <section class="about">
-            <h2 class="about__title">Обо мне</h2>
-            <div class="about__descr">
-                <p>Активно изучаю Front-End разработку! С декабря 2021 года ecgtiyj прошла обучение в RS School: Stage 0, Stage 1-2, Stage 3 - React.  </p>
-                <p>Для меня важна возможность заниматься интересной работой, которая мне действительно нравится, где я могу создавать что-то свое. Я имею в виду возможность придумывать и создавать свои сайты, проложения и что угодно, на что у меня хватит воображения. Мне очень интересен сам процесс разработки, так что я стараюсь и в рамках проектов придумывать и предлагать какие-то новые решения.</p>
-            </div>
-        </section>
-        <section class="prof">
-            <h2 class="prof__title">Профессиональый опыт (пока лишь на учебных проектах)</h2>
-            <div class="prof__block">
-                <h3 class="prof__block-title">Мой первый челлендж - Stage 0</h3>
-                <div class="prof__block-example">
-                    <a href="https://rolling-scopes-school.github.io/irinabukley23-JSFEPRESCHOOL/portfolio/" target="_blank">RS-portfolio</a>
+    <div class="wrapper">
+        <main class="main">
+            <h2 class="title">Ирина Буклей | Младший фронтенд разработчик</h2>
+            <section class="about">
+                <h2 class="subtitle">Обо мне</h2>
+                <div class="about__descr">
+                    <p>Активно изучаю Frontend разработку! С декабря 2021 года успешно прошла обучение в RS School: Stage 0, Stage 1-2, Stage 3 - React.  </p>
+                    <p>Моя профессиональная мотивация - развиваться в области разработки как во Frontend, так и в Backend. </p>
+                    <p>Мне нравится приносить пользу людям, создавать удобные интерфейсы. </p>
                 </div>
-                <div class="prof__block-skills">
-                    <p>Что нового для себя:</p>
-                    <ul>
-                        <li>HTML, CSS, JS</li>
-                        <li>Переключение языка</li>
-                        <li>Переключение цвета темы</li>
+            </section>
+            <section class="prof">
+                <h2 class="subtitle">Профессиональый опыт</h2>
+                <p>(пока лишь на учебных проектах)</p>
+                <div class="prof__block">
+                    <h3 class="prof__block-title">Мой первый челлендж - Stage 0</h3>
+                    <div class="prof__block-example">
+                        Мой первый сверстанный сайт:
+                        <a href="https://rolling-scopes-school.github.io/irinabukley23-JSFEPRESCHOOL/portfolio/" target="_blank">RS-portfolio</a>
+                    </div>
+                    <div class="prof__block-skills">
+                        <p>Что нового для себя:</p>
+                        <ul>
+                            <li>➥ HTML, CSS, JS</li>
+                            <li>➥ Переключение языка</li>
+                            <li>➥ Переключение цвета темы</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="prof__block">
+                    <h3 class="prof__block-title">Мой второй челлендж - Stage 1</h3>
+                    <div class="prof__block-example">
+                        Разработанный в паре интернет-магазин: 
+                        <a href="https://rolling-scopes-school.github.io/irinabukley23-JSFE2022Q3/online-store">Online-store</a>
+                    </div>
+                    <div class="prof__block-descr">
+                        <p>Мои достижения:</p>
+                        <ul>
+                            <li>✔ Использовала принципы ООП для разработки приложений</li>
+                            <li>✔ Создала одностраничное приложение на чистом JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="prof__block-skills">
+                        <p>Что нового для себя:</p>
+                        <ul>
+                            <li>➥ TS, SPA без использования фреймворка</li>
+                            <li>➥ Приложение, написанное на классах</li>
+                            <li>➥ Первый опыт командной работы</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="prof__block">
+                    <h3 class="prof__block-title">Мой третий челлендж - Stage 2</h3>
+                    <div class="prof__block-example">
+                        Разработан в команде с распределением ролей: 
+                        <a href="https://lider-task-clone.netlify.app/">Lider-task clone</a>
+                    </div>
+                    <div class="prof__block-descr">
+                        <p>Мои достижения:</p>
+                        <ul>
+                            <li>✔ В команде исполняла роль - Team Lead</li>
+                            <li>✔ Планирование процесса разработки приложения в Trello</li>
+                            <li>✔ Разработка спринтами длиной в неделю (методология Kanban)</li>
+                            <li>✔ Получила навык презентации проекта (разработка презентации на Reveal.js и непосредственно презентация приложения online)</li>
+                        </ul>
+                    </div>
+                    <div class="prof__block-skills">
+                        <p>Что нового для себя:</p>
+                        <ul>
+                            <li>➥ Приложение разработано на React с использованием Redux</li>
+                            <li>➥ Использованы библиотеки: Material UI, React DND, i18next</li>
+                            <li>➥ Валидация форм приложения реализована с применением Formik, Yup</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="prof__block">
+                    <h3 class="prof__block-title">Мой четвертый и текущий челлендж - Pet project</h3>
+                    <div class="prof__block-example">
+                        <a href=""></a>
+                        <span></span>
+                    </div>
+                    <div class="prof__block-descr">
+                        <p>in proccess...</p>
+                    </div>
+                    <div class="prof__block-skills">
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+            <section class="edu">
+                <div class="courses">
+                    <h2 class="subtitle">Сертификаты</h2>
+                    <ul class="courses__list">
+                        <li class="courses__list-item"><a href="https://app.rs.school/certificate/r7bo41s7">RS School. Stage 0</a></li>
+                        <li class="courses__list-item"> <a href="https://app.rs.school/certificate/5flgaxsj">RS School. Stage 1-2</a></li>
+                        <li class="courses__list-item"><a href="https://app.rs.school/certificate/3xup9kt6">RS School. React</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="prof__block">
-                <h3 class="prof__block-title">Мой второй челлендж - Stage 1</h3>
-                <div class="prof__block-example">
-                    <a href="https://rolling-scopes-school.github.io/irinabukley23-JSFE2022Q3/online-store">Online-store</a>
-                </div>
-                <div class="prof__block-descr">
-                    <p>Мои достижения:</p>
-                    <ul>
-                        <li>Использовала принципы ООП для разработки приложений</li>
-                        <li>Создала одностраничное приложение на чистом JavaScript</li>
+                <div class="hobby">
+                    <h2 class="subtitle">&#128065; &#128065;</h2>
+                    <ul class="hobby__list">
+                        <li class="hobby__list-item">Фитнес и танцевальная аэробика</li>
+                        <li class="hobby__list-item">Вокал</li>
+                        <li class="hobby__list-item">Путешествия с семьей</li>
+                        <li class="hobby__list-item">Литература</li>
                     </ul>
                 </div>
-                <div class="prof__block-skills">
-                    <p>Что нового для себя:</p>
-                    <ul>
-                        <li>TS, SPA без использования фреймворка</li>
-                        <li>Приложение, написанное на классах</li>
-                        <li>Первый опыт командной работы</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="prof__block">
-                <h3 class="prof__block-title">Мой третий челлендж - Stage 2</h3>
-                <div class="prof__block-example">
-                    <a href="https://lider-task-clone.netlify.app/">Lider-task clone</a>
-                </div>
-                <div class="prof__block-descr">
-                    <p>Мои достижения:</p>
-                    <ul>
-                        <li>В команде исполняла роль - Team Lead</li>
-                        <li>Планирование процесса разработки приложения в Trello</li>
-                        <li>Разработка спринтами длиной в неделю (методология Kanban)</li>
-                        <li>Получила навык презентации проекта (разработка презентации на Reveal.js и непосредственно презентация приложения online)</li>
-                    </ul>
-                </div>
-                <div class="prof__block-skills">
-                    <p>Что нового для себя:</p>
-                    <ul>
-                        <li>Приложение разработано на React с использованием Redux</li>
-                        <li>Использованы библиотеки: Material UI, React DND, i18next</li>
-                        <li>Валидация форм приложения реализована с применением Formik, Yup</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="prof__block">
-                <h3 class="prof__block-title">Мой четвертый и текущий челлендж - Pet project</h3>
-                <div class="prof__block-example">
-                    <a href=""></a>
-                    <span></span>
-                </div>
-                <div class="prof__block-descr">
-                    <p>in proccess...</p>
-                </div>
-                <div class="prof__block-skills">
-                    <p></p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="courses">
-                <h2 class="courses__title">Сертификаты</h2>
-                <ul class="courses__list">
-                    <li class="courses__list-item"><a href="https://app.rs.school/certificate/r7bo41s7">RS School. Stage 0</a></li>
-                    <li class="courses__list-item"> <a href="https://app.rs.school/certificate/5flgaxsj">RS School. Stage 1-2</a></li>
-                    <li class="courses__list-item"><a href="https://app.rs.school/certificate/3xup9kt6">RS School. React</a></li>
+            </section>
+            <section class="quote">
+                <h2 class="subtitle">Топ-3 мои любимые цитаты</h2>
+                <ul class="quote__list">
+                    <li class="quote__list-item">✘ Дорогу осилит идущий</li>
+                    <li class="quote__list-item">✘ Покажите мне человека, который никогда не ошибался, и я покажу вам человека, который никогда многого не добивался</li>
+                    <li class="quote__list-item">✘ Отказавшись от фразы «у меня нет времени», вы скоро поймете, что у вас есть время практически для всего, что вы посчитаете нужным сделать в жизни.</li>
                 </ul>
-            </div>
-            <div class="hobby">
-                <h2 class="hobby__title">&#128065; &#128065;</h2>
-                <ul class="hobby__list">
-                    <li class="hobby__list-item">Фитнес и танцевальная аэробика</li>
-                    <li class="hobby__list-item">Вокал</li>
-                    <li class="hobby__list-item">Путешествия с семьей</li>
-                    <li class="hobby__list-item">Литература</li>
-                </ul>
-            </div>
-        </section>
-        <section class="quote">
-            <h2 class="quote__title">Топ-3 мои любимые цитаты</h2>
-            <ul class="quote__list">
-                <li class="quote__list-item">Дорогу осилит идущий</li>
-                <li class="quote__list-item">Покажите мне человека, который никогда не ошибался, и я покажу вам человека, который никогда многого не добивался</li>
-                <li class="quote__list-item">Отказавшись от фразы «у меня нет времени», вы скоро поймете, что у вас есть время практически для всего, что вы посчитаете нужным сделать в жизни.
-                    Источник цитаты: https://all-aforizmy.ru/citaty/krasivye-tsitaty-s-glubokim-smyslom-300-tsitat</li>
-            </ul>
-        </section>
-        <aside>
+            </section>
+        </main>
+        <aside class="sidebar">
             <div class="contacts">
-                <h2 class="contacts__title">Контакты</h2>
+                <h2 class="subtitle">Контакты</h2>
                 <ul>
                     <li><a href="https://t.me/irina_bukley">Telegram</a></li>
                     <li><a href="mailto:irenserge@mail.ru">Email</a></li>
@@ -139,7 +150,7 @@
                 </ul>
             </div>
             <div class="education">
-                <h2 class="education__title">Образование</h2>
+                <h2 class="subtitle">Образование</h2>
                 <ul class="education__list">
                     <li class="education__list-item">Менеджер по качеству
                         <span>БНТУ | Минск, Беларусь</span>
@@ -152,7 +163,7 @@
                 </ul>
             </div>
             <div class="lang">
-                <h2 class="lang__title">Языки</h2>
+                <h2 class="subtitle">Языки</h2>
                 <ul class="lang__list">
                     <li class="lang__list-item">Русский | Native</li>
                     <li class="lang__list-item">◉◉◉◉◉◉◉◉◉◉</li>
@@ -161,7 +172,8 @@
                 </ul>
             </div>
         </aside>
-    </main>
+    </div>
+    
     <script src="./script.js"></script>
 </body>
 </html>
