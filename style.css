@@ -64,6 +64,24 @@
 .header__avatar img {
     width: 100%;
 }
+#ru:hover, #en:hover {
+    color: #BDAE82;
+}
+.language {
+    font-weight: bold;
+    display: flex;
+    position: absolute;
+    top: -10px;
+    left: -30px;
+}
+pre {
+    color: #ffffff;
+}
+#ru, #en {
+    cursor: pointer;
+    transition: ease-in 0.5s;
+    color: #ffffff;
+}
 .title {
     font-size: 2rem;
     width: 70%;
@@ -72,7 +90,7 @@
 .subtitle {
     font-size: 1.75rem;
     color: #41203f;
-    margin: 0 0 0.5rem 0;
+    margin: 1rem 0 0.5rem 0;
 }
 .about, .prof, .edu, .quote, .contacts, .education {
     margin: 0 0 2rem 0;
@@ -85,7 +103,7 @@
 .prof__block-title {
     font-size: 1.5rem;
     color: #72396e;
-    margin: 0.5rem 0;
+    margin: 1.5rem 0 0.5rem 0;
 }
 .prof__block-skills, .prof__block-descr {
     margin: 1rem 0;
@@ -167,9 +185,39 @@
     font-style: normal;
     font-size: 1rem;
 }
+.block {
+    display: flex;
+}
+.block a {
+    margin: 0 0 0 15px;
+}
+.lang {
+    margin: 0 0 30px 0;
+}
 .lang__list-item {
     font-size: 1.25rem;
     margin: 10px 0 5px 0;
+}
+.skills__list {
+    margin: 20px 0 0 0;
+}
+.footer {
+    background: url('./img/top.jpg') no-repeat;
+    background-position: center;
+    height: 100px;
+    position: relative;
+    z-index: 1;
+    margin: 30px 0 0 0;
+}
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.footer__link {
+    color: #ffffff;
+    text-transform: uppercase;
 }
 @media (max-width: 1440px) {
     .wrapper {
@@ -222,12 +270,19 @@
     .header__descr {
         width: 80%;
     }
+    .language {
+        top: -20px;
+    }
 }
 @media (max-width: 380px) {
     .header {
-        padding: 30px;
+        padding: 50px 30px 30px;
     }
     .header__title {
         font-size: 2.5rem;
+    }
+    .language {
+        top: -20px;
+        left: -10px;
     }
 }
