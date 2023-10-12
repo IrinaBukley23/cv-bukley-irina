@@ -64,8 +64,8 @@
 .header__avatar img {
     width: 100%;
 }
-#ru:hover, #en:hover {
-    color: #BDAE82;
+.ru:hover, .en:hover {
+    color: #8d4788;
 }
 .language {
     font-weight: bold;
@@ -77,10 +77,14 @@
 pre {
     color: #ffffff;
 }
-#ru, #en {
+.ru, .en {
     cursor: pointer;
     transition: ease-in 0.5s;
     color: #ffffff;
+    text-transform: uppercase;
+}
+.ru.active, .en.active {
+    color: #8d4788;
 }
 .title {
     font-size: 2rem;
@@ -89,7 +93,7 @@ pre {
 }
 .subtitle {
     font-size: 1.75rem;
-    color: #41203f;
+    color: #613b5e;
     margin: 1rem 0 0.5rem 0;
 }
 .about, .prof, .edu, .quote, .contacts, .education {
@@ -102,7 +106,7 @@ pre {
 }
 .prof__block-title {
     font-size: 1.5rem;
-    color: #72396e;
+    color: #8d4788;
     margin: 1.5rem 0 0.5rem 0;
 }
 .prof__block-skills, .prof__block-descr {
@@ -139,7 +143,7 @@ pre {
     box-shadow: inset 0 0 5px rgba(0,0,0,0.5); 
    }
 .lang__list-item input:checked + span { 
-    background: #41203f;
+    background: #613b5e;
    }
 .lang__list-item input:checked + span::before { 
     content: '';
@@ -155,7 +159,7 @@ pre {
 
 }
 .lang__list-item .visible:disabled {
-    border: 1px solid #41203f;
+    border: 1px solid #613b5e;
     margin: 0 0 0 2px;
 }
 .contacts__list {
